@@ -1,0 +1,56 @@
+.install-prompt {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(15, 23, 36, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  max-width: 90%;
+  width: 320px;
+}
+
+.install-content {
+  text-align: center;
+}
+
+.install-content p {
+  margin: 0 0 16px;
+  color: #fff;
+}
+
+.install-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.install-btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dismiss-btn {
+  background: transparent;
+  border: 1px solid #3b4858;
+  color: #9aa4b2;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.install-btn:hover {
+  background: #ff5252;
+}
+
+.dismiss-btn:hover {
+  background: rgba(59, 72, 88, 0.2);
+}
